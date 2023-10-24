@@ -1,0 +1,33 @@
+Input parameters:
+n: number of nodes in the graph: 15
+n1: the nest node: 12
+α: alpha, ant move event: 0.7
+β: beta, ant move event: 1.2
+δ: delta, ant move event: 0.1
+η: eta, pheromone evaporation event: 0.7
+ρ: rho, pheromone evaporation event: 8.0
+γ: pheromone level: -2.2
+ν: ant colony size: 120
+τ: final instant: 550.0
+with graph:
+Adjacency Matrix:
+0 5 5 2 5 5 0 4 1 1 0 1 0 5 5 
+5 0 0 3 0 0 0 0 0 6 3 0 0 0 0 
+5 0 0 1 0 0 0 0 0 4 0 0 6 0 0 
+2 3 1 0 5 5 0 0 1 5 0 5 0 0 0 
+5 0 0 5 0 3 0 0 2 0 0 0 0 0 0 
+5 0 0 5 3 0 0 0 0 0 0 4 0 0 0 
+0 0 0 0 0 0 0 6 0 1 0 0 0 0 0 
+4 0 0 0 0 0 6 0 2 0 0 0 0 0 0 
+1 0 0 1 2 0 0 2 0 4 0 0 0 2 0 
+1 6 4 5 0 0 1 0 4 0 4 0 0 0 0 
+0 3 0 0 0 0 0 0 0 4 0 4 0 0 0 
+1 0 0 5 0 4 0 0 0 0 4 0 2 4 0 
+0 0 6 0 0 0 0 0 0 0 0 2 0 5 6 
+5 0 0 0 0 0 0 0 2 0 0 4 5 0 1 
+5 0 0 0 0 0 0 0 0 0 0 0 6 1 0 
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Graph.Edge.getWeight()" because "<local4>" is null
+	at Simulation.antMoveEvent.calculateTraverseTime(antMoveEvent.java:172)
+	at Simulation.antMoveEvent.run(antMoveEvent.java:45)
+	at Simulation.PEC.nextPECEvent(PEC.java:41)
+	at Simulation.Simulation.main(Simulation.java:51)

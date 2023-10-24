@@ -1,0 +1,142 @@
+ Input parameters:
+n: number of nodes in the graph: 10
+n1: the nest node: 3
+α: alpha, ant move event: 0.5
+β: beta, ant move event: 0.8
+δ: delta, ant move event: 0.1
+η: eta, pheromone evaporation event: 0.3
+ρ: rho, pheromone evaporation event: 5.0
+γ: pheromone level: 1.5
+ν: ant colony size: 100
+τ: final instant: 8000.0
+with graph:
+Adjacency Matrix:
+0 8 0 0 0 0 0 0 0 0 
+8 0 0 0 1 1 0 0 0 8 
+0 0 0 0 7 0 7 5 0 6 
+0 0 0 0 5 0 0 4 0 0 
+0 1 7 5 0 7 0 0 0 0 
+0 1 0 0 7 0 0 0 0 0 
+0 0 7 0 0 0 0 5 0 0 
+0 0 5 4 0 0 5 0 0 0 
+0 0 0 0 0 0 0 0 0 3 
+0 8 6 0 0 0 0 0 3 0 
+Observation number: 1
+Present instant: 400.0
+Number of move events: 132649
+Number of evaporation events: 0
+Top candidate cycles:
+
+Observation number: 2
+Present instant: 800.0
+Number of move events: 266032
+Number of evaporation events: 0
+Top candidate cycles:
+
+Observation number: 3
+Present instant: 1200.0
+Number of move events: 399524
+Number of evaporation events: 0
+Top candidate cycles:
+
+Observation number: 4
+Present instant: 1600.0
+Number of move events: 532863
+Number of evaporation events: 0
+Top candidate cycles:
+
+Observation number: 5
+Present instant: 2000.0
+Number of move events: 665883
+Number of evaporation events: 0
+Top candidate cycles:
+
+Observation number: 6
+Present instant: 2400.0
+Number of move events: 799126
+Number of evaporation events: 0
+Top candidate cycles:
+
+Observation number: 7
+Present instant: 2800.0
+Number of move events: 931960
+Number of evaporation events: 0
+Top candidate cycles:
+
+Observation number: 8
+Present instant: 3200.0
+Number of move events: 1065225
+Number of evaporation events: 0
+Top candidate cycles:
+
+Observation number: 9
+Present instant: 3600.0
+Number of move events: 1198905
+Number of evaporation events: 0
+Top candidate cycles:
+
+Observation number: 10
+Present instant: 4000.0
+Number of move events: 1332827
+Number of evaporation events: 0
+Top candidate cycles:
+
+Observation number: 11
+Present instant: 4400.0
+Number of move events: 1466279
+Number of evaporation events: 0
+Top candidate cycles:
+
+Observation number: 12
+Present instant: 4800.0
+Number of move events: 1599180
+Number of evaporation events: 0
+Top candidate cycles:
+
+Observation number: 13
+Present instant: 5200.0
+Number of move events: 1732522
+Number of evaporation events: 0
+Top candidate cycles:
+
+Observation number: 14
+Present instant: 5600.0
+Number of move events: 1864964
+Number of evaporation events: 0
+Top candidate cycles:
+
+Observation number: 15
+Present instant: 6000.0
+Number of move events: 1999019
+Number of evaporation events: 0
+Top candidate cycles:
+
+Observation number: 16
+Present instant: 6400.0
+Number of move events: 2131980
+Number of evaporation events: 0
+Top candidate cycles:
+
+Observation number: 17
+Present instant: 6800.0
+Number of move events: 2265253
+Number of evaporation events: 0
+Top candidate cycles:
+
+Observation number: 18
+Present instant: 7200.0
+Number of move events: 2398713
+Number of evaporation events: 0
+Top candidate cycles:
+
+Observation number: 19
+Present instant: 7600.0
+Number of move events: 2531686
+Number of evaporation events: 0
+Top candidate cycles:
+
+Observation number: 20
+Present instant: 8000.0
+Number of move events: 2664192
+Number of evaporation events: 0
+Top candidate cycles:
